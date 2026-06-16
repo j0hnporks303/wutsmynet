@@ -1,5 +1,5 @@
-	PREFIX ?= /usr/local
-	BINDIR := $(PREFIX)/bin
+PREFIX ?= /usr/local
+BINDIR := $(PREFIX)/bin
 
 install:
 	install -m 755 wutsmynet $(BINDIR)/wutsmynet
